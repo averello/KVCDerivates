@@ -1,0 +1,11 @@
+use_frameworks!
+platform :ios, '8.0'
+
+target 'KVCDerivates_Tests' do
+  pod 'KVCDerivates', :path => '../'
+
+  pod 'LKVCKit', :git => 'https://github.com/averello/LKVCKit.git'
+  pod 'Ents', :git => 'https://github.com/averello/Ents.git'
+  pod 'RepresentationKit', :git => 'https://github.com/averello/RepresentationKit.git'
+  
+end

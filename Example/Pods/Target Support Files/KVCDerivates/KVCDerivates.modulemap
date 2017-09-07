@@ -1,0 +1,6 @@
+framework module KVCDerivates {
+  umbrella header "KVCDerivates-umbrella.h"
+
+  export *
+  module * { export * }
+}

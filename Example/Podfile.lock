@@ -1,0 +1,45 @@
+PODS:
+  - Ents (1.17)
+  - KVCDerivates (1.0.1):
+    - LKVCKit
+    - RepresentationKit
+  - LKVCKit (1.1.3):
+    - Ents
+  - RepresentationKit (1.1.4)
+
+DEPENDENCIES:
+  - Ents (from `https://github.com/averello/Ents.git`)
+  - KVCDerivates (from `../`)
+  - LKVCKit (from `https://github.com/averello/LKVCKit.git`)
+  - RepresentationKit (from `https://github.com/averello/RepresentationKit.git`)
+
+EXTERNAL SOURCES:
+  Ents:
+    :git: https://github.com/averello/Ents.git
+  KVCDerivates:
+    :path: "../"
+  LKVCKit:
+    :git: https://github.com/averello/LKVCKit.git
+  RepresentationKit:
+    :git: https://github.com/averello/RepresentationKit.git
+
+CHECKOUT OPTIONS:
+  Ents:
+    :commit: 580e1880a334135f775b2cf1ef20f0e1a1540f1d
+    :git: https://github.com/averello/Ents.git
+  LKVCKit:
+    :commit: df72f36a27c212e453e89e37254ea366d862687b
+    :git: https://github.com/averello/LKVCKit.git
+  RepresentationKit:
+    :commit: 13a45a3a9e3e93def7662d6f7719e9fe4920f5d3
+    :git: https://github.com/averello/RepresentationKit.git
+
+SPEC CHECKSUMS:
+  Ents: f7469b80b3507e2bbc936c96b2cf61e79c0ce809
+  KVCDerivates: 4ae018a8fbc2a446c16fc797fd49ede00946e41e
+  LKVCKit: b96cd7ec9dc2da116ca1a50f414320578d1ffcbd
+  RepresentationKit: 1ae7749916ed014403db30f3d38204d7e000dbd1
+
+PODFILE CHECKSUM: 2a1bbb8214f76c82cc535be29a91ce57fb745122
+
+COCOAPODS: 1.2.1

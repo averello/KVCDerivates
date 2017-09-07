@@ -1,0 +1,6 @@
+framework module Pods_KVCDerivates_Tests {
+  umbrella header "Pods-KVCDerivates_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
