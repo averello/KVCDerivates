@@ -1,48 +1,45 @@
 PODS:
-  - Ents (2.0.1)
-  - KVCDerivates (2.0):
+  - Ents (3.0.2)
+  - KVCDerivates (2.1):
     - LKVCKit
     - RepresentationKit
   - LKVCKit (2.0):
     - Ents
-  - RepresentationKit (1.1.4)
+  - RepresentationKit (2.0)
 
 DEPENDENCIES:
-  - Ents (from `https://github.com/averello/Ents.git`, branch `feature/swift4`)
+  - Ents (from `https://github.com/averello/Ents.git`)
   - KVCDerivates (from `../`)
-  - LKVCKit (from `https://github.com/averello/LKVCKit.git`, branch `feature/swift4`)
-  - RepresentationKit (from `https://github.com/averello/RepresentationKit.git`, branch `feature/swift4`)
+  - LKVCKit (from `https://github.com/averello/LKVCKit.git`)
+  - RepresentationKit (from `https://github.com/averello/RepresentationKit.git`)
 
 EXTERNAL SOURCES:
   Ents:
-    :branch: feature/swift4
     :git: https://github.com/averello/Ents.git
   KVCDerivates:
     :path: "../"
   LKVCKit:
-    :branch: feature/swift4
     :git: https://github.com/averello/LKVCKit.git
   RepresentationKit:
-    :branch: feature/swift4
     :git: https://github.com/averello/RepresentationKit.git
 
 CHECKOUT OPTIONS:
   Ents:
-    :commit: 2e1ebe3f5b29191034476aa4d5b6f7ac5a0a66cd
+    :commit: 0fe24694f29439d730a4d4f9cae6b47c4a571d1c
     :git: https://github.com/averello/Ents.git
   LKVCKit:
     :commit: 57b961b964cc65e575e9bb57da03921fa2c720d2
     :git: https://github.com/averello/LKVCKit.git
   RepresentationKit:
-    :commit: 8fbcb72326485baf98d908595e159c9dbc55dc3d
+    :commit: fc44c427ad7ee9c41b52248fd237e63a7dc59406
     :git: https://github.com/averello/RepresentationKit.git
 
 SPEC CHECKSUMS:
-  Ents: be561facca59ddd5c73181c66cdd904ffe496079
-  KVCDerivates: 8a35bee75327607776243e5c02a29cd9ed9b30d0
+  Ents: ba6f1580477df17aca1ea671975ab17789a05e98
+  KVCDerivates: 9d685ae558915c461522812d30ee0e6226b1afc2
   LKVCKit: 7732f7e85c3107f35a9d9317c772bef06c77939d
-  RepresentationKit: 1ae7749916ed014403db30f3d38204d7e000dbd1
+  RepresentationKit: 13e70a642c8f6ff8ea045b76cbe7814d443e735d
 
-PODFILE CHECKSUM: 0ded36989713b976cba94faa652159c510115676
+PODFILE CHECKSUM: 2a1bbb8214f76c82cc535be29a91ce57fb745122
 
-COCOAPODS: 1.2.1
+COCOAPODS: 1.5.0

@@ -1,6 +1,6 @@
 {
   "name": "KVCDerivates",
-  "version": "2.0",
+  "version": "2.1",
   "summary": "Declares classes that can be represented by Key-Value pairs.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/averello/KVCDerivates",
@@ -13,12 +13,15 @@
   },
   "source": {
     "git": "https://github.com/averello/KVCDerivates.git",
-    "tag": "2.0"
+    "tag": "2.1"
   },
   "platforms": {
     "ios": "8.0"
   },
   "source_files": "KVCDerivates/Classes/**/*",
+  "xcconfig": {
+    "SWIFT_VERSION": "4.0"
+  },
   "dependencies": {
     "LKVCKit": [
 
